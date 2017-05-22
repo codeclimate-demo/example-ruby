@@ -1,0 +1,18 @@
+AllCops:
+  DisabledByDefault: true
+
+Metrics/AbcSize:
+  Enabled: true
+  Max: 5
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  Max: 5
+
+Metrics/ParameterLists:
+  Enabled: true
+  Max: 3
+
+Metrics/PerceivedComplexity:
+  Enabled: true
+  Max: 5

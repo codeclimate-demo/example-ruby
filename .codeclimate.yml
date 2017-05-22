@@ -1,0 +1,18 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+        - ruby
+    exclude_paths:
+      - complexity.rb
+  rubocop:
+    enabled: true
+    exclude_paths:
+      - duplication.rb
+      - duplication_2.rb
+ratings:
+  paths:
+    - "**/*.rb"
+exclude_paths:
+  - spec/
